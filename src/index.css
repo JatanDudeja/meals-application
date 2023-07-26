@@ -40,6 +40,7 @@ html {
   --red-dark: #842029;
   --green-light: #d1e7dd;
   --green-dark: #0f5132;
+  --red : #FF0000;
 
   /* fonts  */
   --small-text: 0.875rem;
@@ -192,7 +193,11 @@ ul {
 .search-container .btn{
   font-size:0.75rem;
 }
+
+
 /* Favorites */
+
+
 .favorites{
   background:var(--black);
   color:var(--white);
@@ -207,6 +212,7 @@ ul {
   display:flex;
   gap:0.5rem;
   flex-wrap:wrap;
+  margin-left: 10%;
 }
 .favorite-item{
   text-align:center;
@@ -223,13 +229,19 @@ ul {
   color:var(--white);
     border:transparent;
   cursor:pointer;
-  font-size:0.5rem;
+  font-size:0.85rem;
   transition:var(--transition);
 }
 .remove-btn:hover{
-  color:var(--red-dark)
+  /* color:var(--red-dark) */
+  color: var(--red);
 }
+
+
+
+
 /* Meals */
+
 .section,.section-center{
   padding:3rem 0;
   width:var(--view-width);
@@ -289,6 +301,12 @@ cursor:pointer;
   color:var(--red-dark);
   transform:translateY(-2px)
 }
+
+
+
+
+
+
 /* Modal */
 
 .modal-overlay{
